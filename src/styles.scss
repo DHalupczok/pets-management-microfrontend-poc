@@ -1,1 +1,48 @@
-/* You can add global styles to this file, and also import other style files */
+.bg-primary {
+  background-color: #054A91;
+}
+
+.bg-secondary {
+  background-color: #DBE4EE;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+p {
+  border: transparent;
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+
+.pet-container {
+  display: flex;
+  justify-content: center;
+  color: #DBE4EE;
+  padding: 0.5rem;
+
+  label, input {
+    margin: 0.5rem;
+  }
+}
