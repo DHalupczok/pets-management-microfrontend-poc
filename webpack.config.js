@@ -6,6 +6,8 @@ module.exports = withModuleFederationPlugin({
 
   exposes: {
     './Module': './src/app/pets/pets.module.ts',
+    // './Module': './src/app/app.module.ts',
+    // './Component': './src/app/app.component.ts'
   },
 
   shared: {
