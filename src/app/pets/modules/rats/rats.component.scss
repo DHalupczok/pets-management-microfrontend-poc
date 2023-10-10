@@ -1,0 +1,10 @@
+.pet-container {
+  display: flex;
+  justify-content: center;
+  color: #DBE4EE;
+  padding: 0.5rem;
+
+  label, input {
+    margin: 0.5rem;
+  }
+}

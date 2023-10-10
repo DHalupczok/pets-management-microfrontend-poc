@@ -5,7 +5,7 @@ module.exports = withModuleFederationPlugin({
   name: 'pets-management-microfrontend-poc',
 
   exposes: {
-    './Component': './src/app/app.component.ts',
+    './Module': './src/app/pets/pets.module.ts',
   },
 
   shared: {
