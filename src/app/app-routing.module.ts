@@ -1,6 +1,5 @@
 import {NgModule} from '@angular/core';
-import {RouteReuseStrategy, RouterModule, Routes} from '@angular/router';
-import {CustomRouteReuseStrategy} from "./pets/customRouteReuseStrategy";
+import {RouterModule, Routes} from '@angular/router';
 
 const routes: Routes = [{path: "pets", loadChildren: () => import("./pets/pets.module").then(m => m.PetsModule)}, {
   path: '',
